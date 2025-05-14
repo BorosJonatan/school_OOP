@@ -1,0 +1,55 @@
+[02-Apr-2025 15:20:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\school_OOP\app\Routing\Router.php:25
+Stack trace:
+#0 C:\xampp\htdocs\school_OOP\app\Routing\Router.php(18): App\Routing\Router::dispatch('GET', '/school_OOP/pub...')
+#1 C:\xampp\htdocs\school_OOP\public\index.php(10): App\Routing\Router->handle()
+#2 {main}
+  thrown in C:\xampp\htdocs\school_OOP\app\Routing\Router.php on line 25
+[02-Apr-2025 15:37:12 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Views\View::render(), 1 passed in C:\xampp\htdocs\school_OOP\app\Controllers\HomeController.php on line 11 and exactly 3 expected in C:\xampp\htdocs\school_OOP\app\views\View.php:8
+Stack trace:
+#0 C:\xampp\htdocs\school_OOP\app\Controllers\HomeController.php(11): App\Views\View::render('layouts/index')
+#1 C:\xampp\htdocs\school_OOP\app\Routing\Router.php(45): App\Controllers\HomeController::index()
+#2 C:\xampp\htdocs\school_OOP\app\Routing\Router.php(25): App\Routing\Router->handleGetRequests('/')
+#3 C:\xampp\htdocs\school_OOP\app\Routing\Router.php(18): App\Routing\Router->dispatch('GET', '/')
+#4 C:\xampp\htdocs\school_OOP\public\index.php(10): App\Routing\Router->handle()
+#5 {main}
+  thrown in C:\xampp\htdocs\school_OOP\app\views\View.php on line 8
+[09-Apr-2025 14:15:45 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\school_OOP\app\views\classes\index.php:45) in C:\xampp\htdocs\school_OOP\app\Routing\Router.php on line 63
+[09-Apr-2025 14:17:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\school_OOP\app\views\classes\index.php:45) in C:\xampp\htdocs\school_OOP\app\Routing\Router.php on line 63
+[09-Apr-2025 14:17:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\school_OOP\app\views\classes\index.php:45) in C:\xampp\htdocs\school_OOP\app\Routing\Router.php on line 63
+[09-Apr-2025 14:39:34 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ClassModel::$name in C:\xampp\htdocs\school_OOP\app\views\classes\index.php on line 8
+[09-Apr-2025 14:39:34 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ClassModel::$name in C:\xampp\htdocs\school_OOP\app\views\classes\index.php on line 8
+[09-Apr-2025 14:39:34 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ClassModel::$name in C:\xampp\htdocs\school_OOP\app\views\classes\index.php on line 8
+[09-Apr-2025 14:39:34 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ClassModel::$name in C:\xampp\htdocs\school_OOP\app\views\classes\index.php on line 8
+[09-Apr-2025 14:39:34 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ClassModel::$name in C:\xampp\htdocs\school_OOP\app\views\classes\index.php on line 8
+[09-Apr-2025 14:39:34 Europe/Berlin] PHP Warning:  Undefined property: App\Models\ClassModel::$name in C:\xampp\htdocs\school_OOP\app\views\classes\index.php on line 8
+[14-May-2025 15:28:46 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 5
+[14-May-2025 15:28:46 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 5
+[14-May-2025 15:28:46 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:28:46 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:28:46 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:28:46 Europe/Berlin] PHP Warning:  Attempt to read property "year" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:29:30 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 5
+[14-May-2025 15:29:30 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 5
+[14-May-2025 15:29:30 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:29:30 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:29:30 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:29:30 Europe/Berlin] PHP Warning:  Attempt to read property "year" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:31:34 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 5
+[14-May-2025 15:31:34 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 5
+[14-May-2025 15:31:34 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:31:34 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:31:34 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:31:34 Europe/Berlin] PHP Warning:  Attempt to read property "year" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:32:54 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 5
+[14-May-2025 15:32:54 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 5
+[14-May-2025 15:32:54 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:32:54 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:32:54 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:32:54 Europe/Berlin] PHP Warning:  Attempt to read property "year" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:34:45 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:34:45 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:34:45 Europe/Berlin] PHP Warning:  Undefined property: App\Models\Subject::$year in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:34:51 Europe/Berlin] PHP Warning:  Undefined variable $class in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:34:51 Europe/Berlin] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 8
+[14-May-2025 15:34:51 Europe/Berlin] PHP Warning:  Undefined property: App\Models\Subject::$year in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
+[14-May-2025 15:35:09 Europe/Berlin] PHP Warning:  Undefined property: App\Models\Subject::$year in C:\xampp\htdocs\school_OOP\app\views\subjects\edit.php on line 11
